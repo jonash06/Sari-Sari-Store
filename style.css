@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(15, 128, 99);
+}
+h1{
+    background-color: rgb(138, 167, 71);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a73c0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #3399ff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.site-title {
+    font-family: "Apple Chancery", cursive;
+    font-size: 18px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.home {
+    text-align: center;
+    padding: 60px;
+}
+
+.logo {
+    width: 700px;
+    height: 700px;
+}
+
+.section-title {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    color: #0066cc;
+    margin-top: 40px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 15px;
+    text-align: center;
+}
+
+.box img {
+    width: 400px;
+    height: 200px;
+}
+
+.travel-title {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    color: #0066cc;
+    margin-top: 40px;
+}
+
+.travel-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.travel-products {
+    display: list-item;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.travel-box {
+    margin: 15px;
+    text-align: center;
+}
+
+.travel-box img {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.about {
+    padding: 40px;
+}
+
+.contact-image img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 30px auto; 
+}
+
+footer {
+    background-color: #3399ff;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
